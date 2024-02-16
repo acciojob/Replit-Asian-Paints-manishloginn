@@ -1,1 +1,59 @@
 /*  your css code here. If applicable */
+/* Write your CSS here */
+ 
+* {
+  box-sizing: border-box;
+}
+ 
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+ 
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 150px);
+  grid-template-rows: repeat(3, 150px);
+  grid-gap: 1px;
+}
+ 
+.grid-item {
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5em;
+  background-color: transparent;
+}
+ 
+input {
+  margin: 10px;
+  padding: 5px 10px;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+ 
+button {
+  padding: 5px 10px;
+  margin: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+}
+ 
+button:hover {
+  transform: scale(1.1);
+}
+ 
+#buttons-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+ 
+ 
